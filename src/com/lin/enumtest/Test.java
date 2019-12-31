@@ -9,12 +9,21 @@ import java.util.Collections;
  * @Modified By:
  **/
 public class Test {
+    enum RemainType {
+        High,Consume,Interim,GroupPreSuspend
+    }
+
+
     public static void main(String[] args) {
-        System.out.println("hello world");
-        Color[] colors = Color.class.getEnumConstants();
-        for (Color c:colors) {
-            System.out.println(c.getCode()+" "+c.getDesc());
-            System.out.println(c);
-        }
+
+
+        ThreadLocal<Integer> threadLocal = new ThreadLocal<Integer>(){
+            @Override
+            protected Integer initialValue() {
+                return 1;
+            }
+        };
+
+        System.out.println(threadLocal.get());
     }
 }

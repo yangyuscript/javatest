@@ -1,12 +1,11 @@
-import com.lin.classtest.toytest.HasBatteries;
-import com.sun.deploy.util.StringUtils;
 
 import java.util.*;
 
 public class TestLin {
     public static void main(String[] args) throws Exception{
-        String a = "10000066642";
-        System.out.println(a.length());
+        for (String arg:args) {
+            System.out.println(arg);
+        }
     }
     public static final int getYYYYMMDD() throws Exception {
         Calendar cal = Calendar.getInstance();
@@ -18,7 +17,7 @@ public class TestLin {
         String[] userInfoArray = userStr.split("\\$");
         userInfo.put("SUBSCRIBER_ID", userInfoArray[0]);
         userInfo.put("SUBSCRIBER_INS_ID", userInfoArray[0]);
-        userInfo.put("CUST_NAME", userInfoArray[1].replaceAll("!","&"));
+        userInfo.put("CUST_NAME", userInfoArray[1]);
         userInfo.put("CUST_CODE", userInfoArray[2]);
         userInfo.put("CUSTOMER_CODE", userInfoArray[2]);
         userInfo.put("ACCT_ID", userInfoArray[3]);
