@@ -1,4 +1,4 @@
-package com.lin.lambda;
+package com.lin.java8.lambda;
 
 /**
  * @Description:

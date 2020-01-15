@@ -103,6 +103,9 @@ public class AnalysisSfile {
         map.put("PRE_FLAG",strs[21]);
         map.put("MAIN_PROMOTION",strs[22]);
         map.put("GLCODE",strs[23]);
+        map.put("USED_DAYS",strs[24]);
+        map.put("USED_BEGIN_DATE",strs[25]);
+        map.put("USED_END_DATE",strs[26]);
         list.add(map);
     }
 
@@ -230,7 +233,7 @@ public class AnalysisSfile {
         StringBuilder sb = new StringBuilder();
         sb.append("insert into ucr_ac1.am_bill_ar_");
         sb.append(billMonth);
-        sb.append(" (ACCT_ID, PARTITION_ID, SUBSCRIBER_ID, ACCESS_NO, BILL_MONTH, ACCT_BEGIN_DATE, ACCT_DAY, BILL_ITEM_ID, INIT_FEE, FEE, MIX_SPLIT_ITEM_ID, MIX_SPLIT_FEE, CREATE_DATE, REGION_ID, DEFAULT_ACCT_ID, PRODUCT_OFFERING_ID, PRODUCT_ID, COLLECT_ID, PRE_FLAG, MAIN_PROMOTION, GLCODE) values (");
+        sb.append(" (ACCT_ID, PARTITION_ID, SUBSCRIBER_ID, ACCESS_NO, BILL_MONTH, ACCT_BEGIN_DATE, ACCT_DAY, BILL_ITEM_ID, INIT_FEE, FEE, MIX_SPLIT_ITEM_ID, MIX_SPLIT_FEE, CREATE_DATE, REGION_ID, DEFAULT_ACCT_ID, PRODUCT_OFFERING_ID, PRODUCT_ID, COLLECT_ID, PRE_FLAG, MAIN_PROMOTION, GLCODE, USED_DAYS, USED_BEGIN_DATE, USED_END_DATE) values (");
         sbAppend(sb,MapGetString(arMap,"ACCT_ID"));
         sbAppend(sb,String.valueOf(MapGetLong(arMap,"ACCT_ID")%10000));
         sbAppend(sb,MapGetString(arMap,"SUBSCRIBER_ID"));
@@ -252,7 +255,10 @@ public class AnalysisSfile {
         sbAppend(sb,MapGetString(arMap,"COLLECT_ID"));
         sbAppend(sb,MapGetString(arMap,"PRE_FLAG"));
         sbAppend(sb,MapGetString(arMap,"MAIN_PROMOTION"));
-        sbAppend(sb,MapGetString(arMap,"GLCODE"),false);
+        sbAppend(sb,MapGetString(arMap,"GLCODE"));
+        sbAppend(sb,MapGetString(arMap,"USED_DAYS"));
+        sbAppend(sb,MapGetString(arMap,"USED_BEGIN_DATE"));
+        sbAppend(sb,MapGetString(arMap,"USED_END_DATE"),false);
         sb.append(");");
         arSqlList.add(sb.toString());
     }
