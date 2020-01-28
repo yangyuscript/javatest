@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7733f5a0-8097-4c58-9b2a-546827b399ba" name="Default" comment="lambda">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lin/annotation/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lin/annotation/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lin/annotation/Perform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lin/annotation/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lin/annotation/TestAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/DateFormatTest/DateFormatTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/DesignPatterns/Observer/Publisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/DesignPatterns/Observer/Subscriber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/DesignPatterns/Observer/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/normal/Computer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/normal/ComputerBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/normal/Director.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/normal/HighComputerBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/normal/LowComputerBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/unnormal/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/DesignPatterns/singleton/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/ProxyTest/cglibProxy/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/ProxyTest/cglibProxy/HelloService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/ProxyTest/cglibProxy/MyMethodInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/ProxyTest/jdkProxy/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/ProxyTest/jdkProxy/DynamicProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/ProxyTest/jdkProxy/RealSubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/ProxyTest/jdkProxy/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/TxtPrintTest/TxtPrintTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/abstractclass/AbstractClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/ai/Datechooser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/ai/LockRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/ai/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/annotation/Check.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/annotation/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/annotation/Perform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/annotation/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/annotation/TestAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/array/BerylliumSphere.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/array/ContainerComparison.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/array/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/array/ThreeDWithNew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/classtest/ClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/classtest/Man.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/classtest/classloader/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/classtest/classloader/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/classtest/classloader/ClassloaderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/classtest/shapetest/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/classtest/shapetest/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/classtest/toytest/FancyToy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/classtest/toytest/HasBatteries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/classtest/toytest/Shoots.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/classtest/toytest/Toy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/classtest/toytest/ToyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/classtest/toytest/Waterproof.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/cloneTest/CloneTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/cloneTest/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/collection/TreeMap/TreeMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/comparator/ArrayComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/comparator/ArrayTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/comparator/HKDateComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/comparator/HKDateComparatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/comparator/MyComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/comparator/StringComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/comparator/StringComparatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/comparator/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/dateutil/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/enumtest/Color.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/enumtest/EnumDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/enumtest/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/exception/Father.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/exception/Son.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/exception/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/exception/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/externalizable/ExternalizableTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/externalizable/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/file/ReadProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/file/filter/FilesFilterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/file/filter/MyFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/file/filter/MySecondFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/generic/Pari.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/generic/PariTestOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/generic/test/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/hashmap/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/java8/defaultmethod4interface/Formula.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/java8/functionalinterface/Converter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/java8/functionalinterface/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/java8/functionalinterface/PersonFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/java8/lambda/CompareTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/java8/lambda/ConsumerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/java8/lambda/FunctionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/java8/lambda/LambdaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/java8/lambda/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/java8/lambda/PredicateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/juc/VolatileTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/juc/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/locale/LocaleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/main/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/operator/OperatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/parentAndSon/Parent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/parentAndSon/Son.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/parentAndSon/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/print/PrintHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/qrcode/TwoDimensionCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/qrcode/TwoDimensionCodeImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/quickKey/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/random/RandomTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/recursion/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/reflex/ReflexTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/reflex/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/serializable/Man.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/serializable/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/serializable/SerializableTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/sfa/analysisSfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/socket/EchoClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/socket/EchoServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/socket/HelloClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/socket/HelloServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/sort/SortTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/statictest/Bowl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/statictest/Cupboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/statictest/StaticInitialization.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/statictest/Statictest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/statictest/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/statictest/notstatic/Mug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/statictest/notstatic/Mugs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/string/StringFormatTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/system/SystemTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/test/KthNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/test/testone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/thread/countdownlatch/ApplicationStartupUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/thread/countdownlatch/BaseHealthChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/thread/countdownlatch/CacheHealthChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/thread/countdownlatch/DataBaseHealthChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/thread/countdownlatch/NetworkHealthChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/thread/countdownlatch/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/thread/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/threadLocalTest/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lin/tomcat/TomcatTest.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/javatest$ReadProperties.ic" NAME="ReadProperties Coverage Results" MODIFIED="1565426508941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.lin.file.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-344870581">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="120" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="30" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.2" value="40" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="26" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.4" value="13" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="133" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="1488）" value="2" />
+          <entry key="class" value="34" />
+          <entry key="java" value="421" />
+          <entry key="properties" value="1" />
+          <entry key="sql" value="1" />
+          <entry key="txt" value="4" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="34" />
+          <entry key="JAVA" value="421" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Properties" value="1" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="2" />
+          <entry key="ft" value="84" />
+          <entry key="java" value="36331" />
+          <entry key="properties" value="17" />
+          <entry key="txt" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="36331" />
+          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="Properties" value="17" />
+          <entry key="VTL" value="84" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="javatest" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lin/ProxyTest/jdkProxy/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/reflect/Proxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="702" column="25" selection-start-line="702" selection-start-column="25" selection-end-line="702" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lin/ProxyTest/jdkProxy/DynamicProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+              <folding>
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lin/ProxyTest/jdkProxy/Subject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lin/ProxyTest/jdkProxy/RealSubject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>add</find>
+      <find>add(</find>
+      <find>get(</find>
+      <find>addf</find>
+      <find>Base64Utils</find>
+      <find>valueof</find>
+      <find>compareTo</find>
+      <find>invoke</find>
+      <find>\n</find>
+      <find>tost</find>
+      <find>qRCodeCommon</find>
+      <find>TwoDimensionCodeImage</find>
+      <find>toString</find>
+      <find>get</find>
+      <find>put</find>
+      <find>java.io.tmpdir</find>
+      <find>KEY_FACTORY</find>
+      <find>proxyClassCache</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>\r\n</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/lin/annotation/Perform.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/annotation/Hero.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/annotation/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/annotation/Check.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/lambda/LambdaTest.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/lambda/ConsumerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/lambda/FunctionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/lambda/PredicateTest.java" />
+        <option value="$PROJECT_DIR$/src/ArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/classtest/classloader/ClassloaderTest.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/classtest/classloader/B.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/classtest/classloader/A.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/sort/SortTest.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/ProxyTest/jdkProxy/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/ProxyTest/cglibProxy/HelloService.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/operator/OperatorTest.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/ProxyTest/cglibProxy/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/ProxyTest/cglibProxy/MyMethodInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/comparator/HKDateComparator.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/comparator/HKDateComparatorTest.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/comparator/StringComparatorTest.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/comparator/StringComparator.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/enumtest/Color.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/DesignPatterns/singleton/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/enumtest/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/main/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/collection/TreeMap/TreeMapTest.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/ai/Datechooser.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/string/StringFormatTest.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/threadfactory/GrandPa.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/threadfactory/Parent.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/threadfactory/Son.java" />
+        <option value="$PROJECT_DIR$/src/TestLin.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/sfa/analysisSfile.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/normal/Builder.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/normal/Computer.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/normal/ComputerBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/normal/LowComputerBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/normal/HighComputerBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/normal/Director.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/unnormal/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/sfa/AnalysisSfile.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/java8/defaultmethod4interface/Formula.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/java8/lambda/CompareTest.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/java8/functionalinterface/PersonFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/java8/functionalinterface/Converter.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/java8/functionalinterface/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/java8/localdatetime/LocalDateTimeTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lin/annotation/Check.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/worksoftware/apache-maven-3.3.9" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="190" />
+    <option name="y" value="15" />
+    <option name="width" value="1400" />
+    <option name="height" value="985" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SerializableHasSerialVersionUIDField</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lin" type="462c0819:PsiDirectoryNode" />
+              <item name="ProxyTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lin" type="462c0819:PsiDirectoryNode" />
+              <item name="ProxyTest" type="462c0819:PsiDirectoryNode" />
+              <item name="jdkProxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580202657059" />
+    <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
+    <property name="nodejs_interpreter_path" value="D:/worksoftware/nodejs/node" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lin.ProxyTest.jdkProxy.Client" />
+      <module name="javatest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.ProxyTest.jdkProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lin.java8.functionalinterface.Converter" />
+      <module name="javatest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.java8.functionalinterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Formula" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lin.java8.defaultmethod4interface.Formula" />
+      <module name="javatest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.java8.defaultmethod4interface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lin.DesignPatterns.builder.unnormal.Person" />
+      <module name="javatest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.DesignPatterns.builder.unnormal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lin.Test" />
+      <module name="javatest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test (2)" />
+      <item itemvalue="Application.Person" />
+      <item itemvalue="Application.Formula" />
+      <item itemvalue="Application.Converter" />
+      <item itemvalue="Application.Client" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Converter" />
+        <item itemvalue="Application.Formula" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Person" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7733f5a0-8097-4c58-9b2a-546827b399ba" name="Default" comment="" />
+      <created>1506565821789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506565821789</updated>
+      <workItem from="1506565823041" duration="1198000" />
+      <workItem from="1506759284278" duration="37000" />
+      <workItem from="1507620488347" duration="6311000" />
+      <workItem from="1507684584742" duration="8819000" />
+      <workItem from="1507772353839" duration="2761000" />
+      <workItem from="1507947841782" duration="1949000" />
+      <workItem from="1508031917180" duration="2926000" />
+      <workItem from="1508287186685" duration="31000" />
+      <workItem from="1508463483190" duration="2000000" />
+      <workItem from="1508596225043" duration="15000" />
+      <workItem from="1509008035904" duration="441000" />
+      <workItem from="1511317831689" duration="2534000" />
+      <workItem from="1511403789494" duration="248000" />
+      <workItem from="1511749709979" duration="108000" />
+      <workItem from="1511751340819" duration="967000" />
+      <workItem from="1511784343005" duration="30000" />
+      <workItem from="1530152552072" duration="1124000" />
+      <workItem from="1530673771239" duration="2733000" />
+      <workItem from="1530841990149" duration="5146000" />
+      <workItem from="1530866516992" duration="3035000" />
+      <workItem from="1530948683177" duration="2004000" />
+      <workItem from="1531101341477" duration="1469000" />
+      <workItem from="1531112669810" duration="1204000" />
+      <workItem from="1531912478635" duration="1026000" />
+      <workItem from="1532332255258" duration="18000" />
+      <workItem from="1532422145981" duration="15000" />
+      <workItem from="1532487114243" duration="2600000" />
+      <workItem from="1532592239118" duration="603000" />
+      <workItem from="1532915371443" duration="13000" />
+      <workItem from="1534327393121" duration="1899000" />
+      <workItem from="1534477857178" duration="3626000" />
+      <workItem from="1534645769260" duration="977000" />
+      <workItem from="1534664950811" duration="2632000" />
+      <workItem from="1534730481020" duration="2998000" />
+      <workItem from="1535199655446" duration="709000" />
+      <workItem from="1535337326098" duration="4661000" />
+      <workItem from="1535680551414" duration="871000" />
+      <workItem from="1535773171228" duration="875000" />
+      <workItem from="1535778287754" duration="2911000" />
+      <workItem from="1536892799032" duration="965000" />
+      <workItem from="1536978171402" duration="631000" />
+      <workItem from="1539760479465" duration="6177000" />
+      <workItem from="1540172009360" duration="776000" />
+      <workItem from="1540805691189" duration="991000" />
+      <workItem from="1542114180650" duration="56000" />
+      <workItem from="1542703117320" duration="6860000" />
+      <workItem from="1544062826302" duration="3518000" />
+      <workItem from="1544597060495" duration="1099000" />
+      <workItem from="1544608452328" duration="790000" />
+      <workItem from="1544664690658" duration="1038000" />
+      <workItem from="1544684468750" duration="630000" />
+      <workItem from="1545118055046" duration="1075000" />
+      <workItem from="1545376012984" duration="3464000" />
+      <workItem from="1545637611041" duration="919000" />
+      <workItem from="1545638663936" duration="654000" />
+      <workItem from="1545639373330" duration="867000" />
+      <workItem from="1545811382173" duration="224000" />
+      <workItem from="1545893167508" duration="39000" />
+      <workItem from="1545982458228" duration="1206000" />
+      <workItem from="1547712330674" duration="4508000" />
+      <workItem from="1548404907150" duration="4084000" />
+      <workItem from="1550298700832" duration="2006000" />
+      <workItem from="1550718850115" duration="6466000" />
+      <workItem from="1551338924551" duration="689000" />
+      <workItem from="1551757777602" duration="785000" />
+      <workItem from="1552036177953" duration="1565000" />
+      <workItem from="1552305783198" duration="5701000" />
+      <workItem from="1552918506059" duration="1594000" />
+      <workItem from="1553501987681" duration="758000" />
+      <workItem from="1553603547902" duration="728000" />
+      <workItem from="1553651486611" duration="547000" />
+      <workItem from="1553775251816" duration="980000" />
+      <workItem from="1554366839659" duration="1231000" />
+      <workItem from="1554473233271" duration="6986000" />
+      <workItem from="1554724563081" duration="1049000" />
+      <workItem from="1554777625407" duration="1734000" />
+      <workItem from="1554863129352" duration="632000" />
+      <workItem from="1555140637773" duration="2009000" />
+      <workItem from="1555158245670" duration="547000" />
+      <workItem from="1555494854708" duration="929000" />
+      <workItem from="1555550461424" duration="6310000" />
+      <workItem from="1555818737060" duration="1556000" />
+      <workItem from="1556176223559" duration="760000" />
+      <workItem from="1556587643127" duration="878000" />
+      <workItem from="1556614069322" duration="1033000" />
+      <workItem from="1556681842701" duration="8175000" />
+      <workItem from="1556760523147" duration="2833000" />
+      <workItem from="1556865863996" duration="162000" />
+      <workItem from="1556870954082" duration="1340000" />
+      <workItem from="1556878287002" duration="3257000" />
+      <workItem from="1557028691458" duration="2933000" />
+      <workItem from="1557106874972" duration="10874000" />
+      <workItem from="1557625535721" duration="5246000" />
+      <workItem from="1557634610238" duration="3869000" />
+      <workItem from="1557710536851" duration="2687000" />
+      <workItem from="1557885130657" duration="1545000" />
+      <workItem from="1558083952985" duration="899000" />
+      <workItem from="1558582611310" duration="1322000" />
+      <workItem from="1559011538195" duration="9937000" />
+      <workItem from="1559304769728" duration="1558000" />
+      <workItem from="1559442600991" duration="2973000" />
+      <workItem from="1560156324011" duration="2474000" />
+      <workItem from="1560482924415" duration="877000" />
+      <workItem from="1561170421982" duration="684000" />
+      <workItem from="1561559225120" duration="751000" />
+      <workItem from="1561640270215" duration="721000" />
+      <workItem from="1561992681455" duration="685000" />
+      <workItem from="1562225460883" duration="947000" />
+      <workItem from="1562243870570" duration="1254000" />
+      <workItem from="1562685113000" duration="1439000" />
+      <workItem from="1563085368557" duration="951000" />
+      <workItem from="1563159670047" duration="656000" />
+      <workItem from="1563374771341" duration="1696000" />
+      <workItem from="1563680964279" duration="3734000" />
+      <workItem from="1563788162320" duration="645000" />
+      <workItem from="1563852530527" duration="5178000" />
+      <workItem from="1563896666617" duration="993000" />
+      <workItem from="1563953273222" duration="782000" />
+      <workItem from="1563975760971" duration="857000" />
+      <workItem from="1564022634466" duration="7750000" />
+      <workItem from="1564659448675" duration="6969000" />
+      <workItem from="1564798531091" duration="5806000" />
+      <workItem from="1564832890862" duration="804000" />
+      <workItem from="1565358908965" duration="8855000" />
+      <workItem from="1565506414504" duration="1709000" />
+      <workItem from="1565577732522" duration="3439000" />
+      <workItem from="1565967275101" duration="604000" />
+      <workItem from="1566299576267" duration="1298000" />
+      <workItem from="1566315105476" duration="21249000" />
+      <workItem from="1566553066008" duration="3851000" />
+      <workItem from="1566612892139" duration="4266000" />
+      <workItem from="1566791542121" duration="3871000" />
+      <workItem from="1566958195866" duration="9501000" />
+      <workItem from="1567069475559" duration="4112000" />
+      <workItem from="1567512965900" duration="3584000" />
+      <workItem from="1567683259554" duration="1154000" />
+      <workItem from="1568038121528" duration="6045000" />
+      <workItem from="1568432928141" duration="2646000" />
+      <workItem from="1568639918242" duration="12827000" />
+      <workItem from="1570156022407" duration="1779000" />
+      <workItem from="1570266989186" duration="12183000" />
+      <workItem from="1570534498144" duration="3852000" />
+      <workItem from="1570542239382" duration="599000" />
+      <workItem from="1570549191234" duration="6048000" />
+      <workItem from="1570605547384" duration="2874000" />
+      <workItem from="1570780906196" duration="1545000" />
+      <workItem from="1571248741005" duration="1420000" />
+      <workItem from="1571390124532" duration="2627000" />
+      <workItem from="1571559549209" duration="14062000" />
+      <workItem from="1571625870029" duration="605000" />
+      <workItem from="1572077423048" duration="746000" />
+      <workItem from="1572448896139" duration="320000" />
+      <workItem from="1572450033850" duration="12774000" />
+      <workItem from="1572595908274" duration="1803000" />
+      <workItem from="1573031687986" duration="3718000" />
+      <workItem from="1573876280357" duration="539000" />
+      <workItem from="1574666710450" duration="341000" />
+      <workItem from="1574690528719" duration="605000" />
+      <workItem from="1574842386130" duration="835000" />
+      <workItem from="1574847123030" duration="987000" />
+      <workItem from="1574862835808" duration="1077000" />
+      <workItem from="1575018429383" duration="64000" />
+      <workItem from="1575018519403" duration="53000" />
+      <workItem from="1575041211467" duration="1024000" />
+      <workItem from="1575049043918" duration="1527000" />
+      <workItem from="1575268929831" duration="148000" />
+      <workItem from="1575964121108" duration="5037000" />
+      <workItem from="1576069438996" duration="2771000" />
+      <workItem from="1576073009441" duration="3332000" />
+      <workItem from="1576081457367" duration="674000" />
+      <workItem from="1576836691453" duration="1534000" />
+      <workItem from="1577382011447" duration="1216000" />
+      <workItem from="1577762039609" duration="2116000" />
+      <workItem from="1579097385119" duration="11169000" />
+      <workItem from="1580128846385" duration="208000" />
+      <workItem from="1580129060476" duration="1595000" />
+      <workItem from="1580190171352" duration="1734000" />
+    </task>
+    <task id="LOCAL-00001" summary="20191231">
+      <created>1577764664820</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577764664820</updated>
+    </task>
+    <task id="LOCAL-00002" summary="20191231">
+      <created>1579102278079</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579102278079</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lambda">
+      <created>1579109571711</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579109571711</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="462383000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19101876" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.3295626" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="JRebel" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.37588653" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.32056737" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32885087" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50214595" side_tool="true" weight="0.2522831" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32765958" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5347518" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3289183" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="13" />
+      <window_info anchor="bottom" id="Problems" order="14" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" sideWeight="0.49932975" weight="0.5750708" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" sideWeight="0.50067025" side_tool="true" weight="0.29461756" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20509383" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.3295626" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="JRebel" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.235461" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.5028329" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32885087" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50214595" side_tool="true" weight="0.2522831" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.49716714" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3289183" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="13" />
+      <window_info anchor="bottom" id="Problems" order="14" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" sideWeight="0.49932975" weight="0.5750708" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" sideWeight="0.50067025" side_tool="true" weight="0.29461756" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20191231" />
+    <MESSAGE value="lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainTest.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lin/threadLocalTest/Test.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lin/ProxyTest/jdkProxy/Client.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lin/ProxyTest/jdkProxy/DynamicProxy.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LockDataRule.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LockDataRule.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lin/file/ReadProperties.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lin/array/Test.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TestLin.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lin/system/SystemTest.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lin/Test.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="base64" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>e.detailMessage</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e.cause.detailMessage</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e.cause.cause.cause</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e.cause.cause</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e.cause</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e.getCause().getMessage()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e.getCause()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e.getMessage()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((ByteArrayOutputStream) outputStream).size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/lin/collection/TreeMap/TreeMapTest.java" />
+    <entry file="jar://D:/worksoftware/java/jdk/src.zip!/java/util/HashMap.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/ai/Datechooser.java" />
+    <entry file="jar://D:/worksoftware/java/jdk/src.zip!/java/util/TreeMap.java" />
+    <entry file="file://$PROJECT_DIR$/singleton.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/worksoftware/java/jdk/src.zip!/java/util/NavigableMap.java" />
+    <entry file="jar://D:/worksoftware/java/jdk/src.zip!/java/util/SortedMap.java" />
+    <entry file="jar://D:/worksoftware/java/jdk/src.zip!/java/lang/ThreadLocal.java" />
+    <entry file="jar://D:/worksoftware/java/jdk/src.zip!/java/lang/Class.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/string/StringFormatTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/comparator/StringComparatorTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/threadfactory/GrandPa.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/threadfactory/Parent.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/threadfactory/Son.java" />
+    <entry file="file://$PROJECT_DIR$/src/TestLin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="29" column="1" selection-start-line="10" selection-start-column="8" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/normal/Computer.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/unnormal/Person.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/DesignPatterns/singleton/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/normal/ComputerBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/normal/Director.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/normal/HighComputerBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/sfa/AnalysisSfile.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/DesignPatterns/builder/normal/LowComputerBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/java8/lambda/FunctionTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/java8/lambda/ConsumerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/java8/defaultmethod4interface/Formula.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/java8/lambda/CompareTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/java8/functionalinterface/PersonFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/java8/functionalinterface/Converter.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/java8/functionalinterface/Person.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/DateFormatTest/DateFormatTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lin/java8/localdatetime/LocalDateTimeTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/TestLin.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LockDataRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_91/src.zip!/java/sql/Timestamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2541">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Base64Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lin/annotation/Check.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lin/annotation/Hero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lin/annotation/Perform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lin/annotation/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lin/annotation/TestAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="702" column="25" selection-start-line="702" selection-start-column="25" selection-end-line="702" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lin/ProxyTest/jdkProxy/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lin/ProxyTest/jdkProxy/RealSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lin/ProxyTest/jdkProxy/DynamicProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lin/ProxyTest/jdkProxy/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>javatest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>cglib:cglib:3.3.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
