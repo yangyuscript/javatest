@@ -1,4 +1,4 @@
-package com.lin.hashmap;
+package com.lin.map.hashmap;
 
 import java.util.HashMap;
 import java.util.Map;

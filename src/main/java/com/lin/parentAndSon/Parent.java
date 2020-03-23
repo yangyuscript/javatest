@@ -15,6 +15,7 @@ public class Parent implements Comparable<Parent>{
     }
 
     public Parent() {
+        System.out.println("create a parent");
     }
 
     public String getName() {

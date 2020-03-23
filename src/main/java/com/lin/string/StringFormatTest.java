@@ -9,7 +9,11 @@ package com.lin.string;
 public class StringFormatTest {
     public static void main(String[] args) {
 
-        String b = String.format("%12s","45");
+        String b = String.format("%-12s","45");
         System.out.println(b);
+
+
+        String a = String.format("%-08d",1);
+        System.out.println(a);
     }
 }

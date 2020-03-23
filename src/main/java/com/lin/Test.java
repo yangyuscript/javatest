@@ -11,7 +11,7 @@ import java.util.List;
  **/
 public class Test {
     public static void main(String[] args) throws Exception{
-        parseStr("200077107649,200586630012,5976789,98440078,201911,210492,1800,0,0,20191226,20200126,20191126,20191226,0,1800,0,0,210492,200586630012,1118000,2080088631131,1,10754,0007602702,30,20191231,20200104");
+        System.out.println(Integer.numberOfLeadingZeros(16 - 1));
     }
 
 
