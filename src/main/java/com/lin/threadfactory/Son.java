@@ -5,6 +5,7 @@ public class Son extends Parent {
         System.out.println("Son init");
     }
 
+    @Override
     public void run(String a){
         System.out.println("Son run" + a);
     }

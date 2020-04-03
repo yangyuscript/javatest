@@ -10,4 +10,8 @@ public class Man {
     static {
         System.out.println("this is Man loaded");
     }
+
+    public static void main(String[] args) {
+
+    }
 }

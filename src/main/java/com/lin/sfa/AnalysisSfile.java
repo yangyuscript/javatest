@@ -90,8 +90,8 @@ public class AnalysisSfile {
         map.put("BILL_ITEM_ID",strs[5]);
         map.put("INIT_FEE",Long.valueOf(strs[6])-Long.valueOf(strs[8]));
         map.put("FEE",Long.valueOf(strs[6])-Long.valueOf(strs[7]));
-        map.put("ACCT_BEGIN_DATE",strs[9]);
-        map.put("ACCT_DAY",strs[10]);
+        map.put("ACCT_BEGIN_DATE",strs[11]);
+        map.put("ACCT_DAY",strs[12]);
         map.put("MIX_SPLIT_ITEM_ID",strs[17]);
         map.put("MIX_SPLIT_FEE",Long.valueOf(strs[6])-Long.valueOf(strs[7]));
         map.put("CREATE_DATE","to_date('"+strs[10]+"', 'yyyymmdd')");

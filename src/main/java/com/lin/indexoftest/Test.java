@@ -10,7 +10,7 @@ import java.util.Map;
  */
 public class Test {
     public static void main(String[] args) {
-        Map<String,Object> map = new HashMap<>();
-        map.get("1");
+        String a = "asset|com.ai.ams.asset.core.center.internal.receipt.interfaces.INotePrintCSV@queryReceiptrintInfos";
+        System.out.println(a.indexOf(124));
     }
 }

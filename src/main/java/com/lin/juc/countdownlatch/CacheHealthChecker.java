@@ -1,10 +1,10 @@
-package com.lin.thread.countdownlatch;
+package com.lin.juc.countdownlatch;
 
 import java.util.concurrent.CountDownLatch;
 
-public class DataBaseHealthChecker extends BaseHealthChecker{
-    public DataBaseHealthChecker (CountDownLatch latch)  {
-        super("DataBase Service", latch);
+public class CacheHealthChecker extends BaseHealthChecker{
+    public CacheHealthChecker (CountDownLatch latch)  {
+        super("Cache Service", latch);
     }
 
     @Override
@@ -13,7 +13,7 @@ public class DataBaseHealthChecker extends BaseHealthChecker{
         System.out.println("Checking " + this.getServiceName());
         try
         {
-            Thread.sleep(8000);
+            Thread.sleep(6000);
         }
         catch (InterruptedException e)
         {

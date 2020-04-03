@@ -1,4 +1,4 @@
-package com.lin.thread.countdownlatch;
+package com.lin.juc.countdownlatch;
 
 public class Test {
     public static void main(String[] args) {

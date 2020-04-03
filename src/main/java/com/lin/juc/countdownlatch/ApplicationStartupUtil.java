@@ -1,4 +1,4 @@
-package com.lin.thread.countdownlatch;
+package com.lin.juc.countdownlatch;
 
 import java.util.ArrayList;
 import java.util.List;
