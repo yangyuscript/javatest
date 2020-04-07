@@ -94,7 +94,7 @@ public class AnalysisSfile {
         map.put("ACCT_DAY",strs[12]);
         map.put("MIX_SPLIT_ITEM_ID",strs[17]);
         map.put("MIX_SPLIT_FEE",Long.valueOf(strs[6])-Long.valueOf(strs[7]));
-        map.put("CREATE_DATE","to_date('"+strs[10]+"', 'yyyymmdd')");
+        map.put("CREATE_DATE","to_date('"+strs[12]+"', 'yyyymmdd')");
         map.put("REGION_ID","852");
         map.put("DEFAULT_ACCT_ID",strs[18]);
         map.put("PRODUCT_OFFERING_ID",strs[19]);
@@ -156,15 +156,18 @@ public class AnalysisSfile {
             sbAppend(sb,MapGetString(collect,"BILL_MONTH"));
             sbAppend(sb,MapGetString(collect,"ACCT_BEGIN_DATE"));
             sbAppend(sb,MapGetString(collect,"ACCT_DAY"));
-            sbAppend(sb,MapGetString(collect,"INIT_FEE"));
+            //sbAppend(sb,MapGetString(collect,"INIT_FEE"));
+            sbAppend(sb,MapGetString(collect,"FEE"));
             sbAppend(sb,MapGetString(collect,"FEE"));
             sbAppend(sb,"");
             sbAppend(sb,"");
             sb.append(MapGetString(collect,"CREATE_DATE"));
             sb.append(",");
-            sb.append(MapGetString(collect,"OP_DATE"));
+            // OP_DATE
+            sb.append(MapGetString(collect,"CREATE_DATE"));
             sb.append(",");
-            sb.append(MapGetString(collect,"TRADE_DATE"));
+            // TRADE_DATE
+            sb.append(MapGetString(collect,"CREATE_DATE"));
             sb.append(",");
             sbAppend(sb,"BATCH");
             sbAppend(sb,"21000100");
@@ -189,7 +192,7 @@ public class AnalysisSfile {
         for (Map<String,Object> item:itemMap.values()) {
             StringBuilder sb = new StringBuilder();
             sb.append("insert into ucr_ac1.am_bill_item (BILL_ID, PARTITION_ID, ACCT_ID, SUBSCRIBER_ID, ACCESS_NO, BILL_MONTH, ACCT_BEGIN_DATE, ACCT_DAY, BILL_ITEM_ID, FEE, BALANCE, BILL_FLAG, WRITEOFF_FLAG, CREATE_DATE, OP_DATE, REGION_ID, COLLECT_ID, GLCODE) values (");
-            sb.append(MapGetString(item,"COLLECT_ID"));
+            sb.append("223030||SEQ_BILL_ID.NEXTVAL");
             sb.append(",");
             sbAppend(sb,String.valueOf(MapGetLong(item,"ACCT_ID")%10000));
             sbAppend(sb,MapGetString(item,"ACCT_ID"));
@@ -199,7 +202,8 @@ public class AnalysisSfile {
             sbAppend(sb,MapGetString(item,"ACCT_BEGIN_DATE"));
             sbAppend(sb,MapGetString(item,"ACCT_DAY"));
             sbAppend(sb,MapGetString(item,"BILL_ITEM_ID"));
-            sbAppend(sb,MapGetString(item,"INIT_FEE"));
+            //sbAppend(sb,MapGetString(item,"INIT_FEE"));
+            sbAppend(sb,MapGetString(item,"FEE"));
             sbAppend(sb,MapGetString(item,"FEE"));
             sbAppend(sb,"U");
             sbAppend(sb,"N");
@@ -208,7 +212,8 @@ public class AnalysisSfile {
             sb.append("sysdate");
             sb.append(",");
             sbAppend(sb,"852");
-            sbAppend(sb,MapGetString(item,"COLLECT_ID"));
+            //sbAppend(sb,MapGetString(item,"COLLECT_ID"));
+            sb.append("(SELECT T.COLLECT_ID FROM UCR_AC1.AM_BILL_COLLECT T WHERE T.BILL_TYPE='M' AND T.ACCT_DAY="+ MapGetString(item,"ACCT_DAY") +" AND T.ACCT_ID="+ MapGetString(item,"ACCT_ID") +"),");
             sbAppend(sb,MapGetString(item,"GLCODE"),false);
             sb.append(");");
             itemSqlList.add(sb.toString());
@@ -252,7 +257,8 @@ public class AnalysisSfile {
         sbAppend(sb,MapGetString(arMap,"DEFAULT_ACCT_ID"));
         sbAppend(sb,MapGetString(arMap,"PRODUCT_OFFERING_ID"));
         sbAppend(sb,MapGetString(arMap,"PRODUCT_ID"));
-        sbAppend(sb,MapGetString(arMap,"COLLECT_ID"));
+        //sbAppend(sb,MapGetString(arMap,"COLLECT_ID"));
+        sb.append("(SELECT T.COLLECT_ID FROM UCR_AC1.AM_BILL_COLLECT T WHERE T.BILL_TYPE='M' AND T.ACCT_DAY="+ MapGetString(arMap,"ACCT_DAY") +" AND T.ACCT_ID="+ MapGetString(arMap,"ACCT_ID") +"),");
         sbAppend(sb,MapGetString(arMap,"PRE_FLAG"));
         sbAppend(sb,MapGetString(arMap,"MAIN_PROMOTION"));
         sbAppend(sb,MapGetString(arMap,"GLCODE"));
