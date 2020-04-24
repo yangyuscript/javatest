@@ -11,7 +11,7 @@ import java.util.List;
  **/
 public class Test {
     public static void main(String[] args) throws Exception{
-        System.out.println(Integer.numberOfLeadingZeros(16 - 1));
+        System.out.println(("1_").split("_")[1]);
     }
 
 

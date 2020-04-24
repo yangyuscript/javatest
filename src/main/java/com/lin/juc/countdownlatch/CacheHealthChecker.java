@@ -4,7 +4,7 @@ import java.util.concurrent.CountDownLatch;
 
 public class CacheHealthChecker extends BaseHealthChecker{
     public CacheHealthChecker (CountDownLatch latch)  {
-        super("Cache Service", latch);
+        super("Cache Services", latch);
     }
 
     @Override

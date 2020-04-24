@@ -5,7 +5,7 @@ import java.util.concurrent.CountDownLatch;
 public class NetworkHealthChecker extends BaseHealthChecker
 {
     public NetworkHealthChecker (CountDownLatch latch)  {
-        super("Network Service", latch);
+        super("Network Services", latch);
     }
 
     @Override

@@ -4,7 +4,7 @@ import java.util.concurrent.CountDownLatch;
 
 public class DataBaseHealthChecker extends BaseHealthChecker{
     public DataBaseHealthChecker (CountDownLatch latch)  {
-        super("DataBase Service", latch);
+        super("DataBase Services", latch);
     }
 
     @Override
