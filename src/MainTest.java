@@ -5,7 +5,6 @@ import java.io.InputStream;
 import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
-
 public class MainTest {
     public static void main(String[] args) {
         String base64 = null;
@@ -27,4 +26,5 @@ public class MainTest {
         }
         System.out.println(base64);
     }
+
 }

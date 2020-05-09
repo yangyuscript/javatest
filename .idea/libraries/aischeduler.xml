@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="aischeduler">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/aischeduler.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/aischeduler-core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
