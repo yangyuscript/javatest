@@ -15,6 +15,8 @@ public class Test {
         System.out.println(a.hashCode());
 
         Map<String,Object> map = new HashMap<>();
+        map.put(null,"123");
+        System.out.println(map.get(null));
 
     }
 }

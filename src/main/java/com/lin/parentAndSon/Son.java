@@ -10,6 +10,7 @@ public class Son extends Parent{
     }
 
     public Son() {
+        System.out.println("init son...");
     }
 
     public Son(String name, Integer age, String school) {
@@ -46,6 +47,6 @@ public class Son extends Parent{
         //Parent son = new Son();
         //son.start();
         Son s1 =new Son();
-        s1.add(10L);
+        //s1.add(10L);
     }
 }

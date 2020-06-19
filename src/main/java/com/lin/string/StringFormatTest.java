@@ -30,6 +30,7 @@ public class StringFormatTest {
                 list) {
             System.out.println(str);
         }
+        System.out.println();
 
         String s5 = list.get(5);
         List<String> list2 = getNumberList(s5);
@@ -107,7 +108,7 @@ public class StringFormatTest {
         for(int i=0; i<=str.length()-1; i++){
             int chr=str.charAt(i);
             // 找到 . 和 0123456789
-            if(chr == 46 || (chr >= 48 && chr <= 57)) {
+            if((s.length()!=0 && chr == 46) || (chr >= 48 && chr <= 57)) {
                 s.append(str.substring(i, i+1));
             }else {
                 if(s != null && s.length() != 0) {

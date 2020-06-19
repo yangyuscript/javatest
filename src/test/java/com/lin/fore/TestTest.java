@@ -2,7 +2,12 @@ package com.lin.fore;
 
 import org.junit.Test;
 
-import java.util.Stack;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileReader;
+import java.lang.management.ManagementFactory;
+import java.util.*;
 
 import static org.junit.Assert.*;
 
@@ -16,7 +21,45 @@ public class TestTest {
 
     @Test
     public void test(){
-        System.out.println(a);
+        String pid = null;
+
+        try {
+            pid = ManagementFactory.getRuntimeMXBean().getName();
+        } catch (Throwable var2) {
+            pid = "-1";
+        }
+        System.out.println(pid);
+    }
+
+    @Test
+    public void test5(){
+        List<String> list = new ArrayList<>();
+        list.add("xiang");
+        list.add("guang");
+        list.add("lin");
+        list.add("abc");
+        Collections.sort(list);
+        System.out.println(list);
+
+        List<Map<String,String>> list1 = new ArrayList<>();
+        Map<String,String> a = new HashMap<>();
+        a.put("name","xiang");
+        list1.add(a);
+        Map<String,String> b = new HashMap<>();
+        b.put("name","guang");
+        list1.add(b);
+        Map<String,String> c = new HashMap<>();
+        c.put("name","lin");
+        list1.add(c);
+        Map<String,String> d = new HashMap<>();
+        d.put("name","abc");
+        list1.add(d);
+
+        Collections.sort(list1,(m1,m2) -> {
+            return m1.get("name").compareTo(m2.get("name"));
+        });
+
+        System.out.println(list1);
     }
 
     @Test
@@ -60,5 +103,23 @@ public class TestTest {
         String[] lineArr = line.split(",");
         String tar = lineArr[k-1];
         return tar.substring(1,tar.length()-1);
+    }
+
+    @Test
+    public void getSys(){
+        System.out.println(System.getProperty("zookeeper.serverCnxnFactory"));
+    }
+
+
+    @Test
+    public void testStr() throws Exception{
+        File file = new File("C:\\Users\\Administrator\\Desktop\\offerinsid.txt");
+        BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
+        String line;
+        StringBuilder sb = new StringBuilder();
+        while((line = bufferedReader.readLine()) != null){
+            sb.append(line).append(",");
+        }
+        System.out.println(sb);
     }
 }
